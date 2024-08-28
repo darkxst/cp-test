@@ -66,7 +66,7 @@ export async function setupPyodide(onStateChange) {
         });
     }
     // custom packed
-    const wheelPath = '/bellows-0.37.2.post1+git.2bfffbcb-py3-none-any.whl';
+    const wheelPath = '/cp-test/bellows-0.37.2.post1+git.2bfffbcb-py3-none-any.whl';
     await micropip.install.callKwargs({
         requirements: wheelPath,
         deps: false,
